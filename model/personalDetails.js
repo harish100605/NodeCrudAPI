@@ -15,7 +15,7 @@ export default mongoose.model("personalDetails", personalDetailsSchema);
 
 
 // personalDetailsSchema.findById()
-//     .populate('personalDetails.js') 
+//     .populate('personalDetails') 
 //     .exec((err, user) => {
 //         if (err) {
 //             console.error(err);
